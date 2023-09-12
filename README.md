@@ -27,8 +27,8 @@
     <td style="text-align: center;">
       <p>
         <h3>Connect with me:</h3>
-          <a href="mailto:KevinTudor.Work@gmail.com">KevinTudor.Work@gmail.com</a>
-          <a href="https://linkedin.com/in/kevin-tudor" target="_blank">
+          <a href="mailto:KevinTudor.Work@gmail.com">KevinTudor.Work@gmail.com</a><br>
+          <a href="https://linkedin.com/in/kevin-tudor" target="_blank"><br>
             <img src="https://media.licdn.com/dms/image/C560BAQHaVYd13rRz3A/company-logo_200_200/0/1638831589865?e=1702512000&v=beta&t=u1LVAxhGUCYerdi4BqYixOS94OD0Es6o70bz2KsmIXU" width="30" height="30">
           </a>
       </p>
