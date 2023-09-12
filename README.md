@@ -3,9 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=kevintudor&label=Profile%20views&color=0e75b6&style=flat" alt="kevintudor" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=kevintudor" alt="kevintudor" /></a> </p>
-
-- 🔭 I’m currently working on [a mobile application using React, React Native and Expo](https://github.com/KevinTudor/AAA_MobileApp.git)
+- 🔭 I’m currently working on [a mobile application using JavaScript, React Native and Expo](https://github.com/KevinTudor/AAA_MobileApp.git)
 
 - 🌱 I’m currently learning **Java, Flutter and brushing up on Python AI tools**
 
