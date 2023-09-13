@@ -9,7 +9,7 @@
 
 - 🤝 I’m looking for help with **distributing a iOS .ipa file locally**
 
-- 👨‍💻 All of my projects are available at [https://github.com/KevinTudor](https://github.com/KevinTudor)
+- 👨‍💻 All of my projects are available on my [github](https://github.com/KevinTudor?tab=repositories)
 
 
 
