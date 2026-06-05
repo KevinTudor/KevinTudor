@@ -1,3 +1,4 @@
+
 <svg width="1100" height="720" viewBox="0 0 1100 720" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1100" y2="720">
@@ -6,89 +7,40 @@
       <stop offset="100%" stop-color="#05070F"/>
     </linearGradient>
 
-```
-<radialGradient id="glowBlue" cx="20%" cy="20%" r="60%">
-  <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.45"/>
-  <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
-</radialGradient>
+    <radialGradient id="glowBlue" cx="20%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
 
-<radialGradient id="glowPurple" cx="85%" cy="15%" r="55%">
-  <stop offset="0%" stop-color="#A855F7" stop-opacity="0.45"/>
-  <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
-</radialGradient>
+    <radialGradient id="glowPurple" cx="85%" cy="15%" r="55%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
 
-<radialGradient id="glowOrange" cx="75%" cy="85%" r="60%">
-  <stop offset="0%" stop-color="#FB923C" stop-opacity="0.35"/>
-  <stop offset="100%" stop-color="#FB923C" stop-opacity="0"/>
-</radialGradient>
+    <radialGradient id="glowOrange" cx="75%" cy="85%" r="60%">
+      <stop offset="0%" stop-color="#FB923C" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#FB923C" stop-opacity="0"/>
+    </radialGradient>
 
-<filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
-  <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.35"/>
-</filter>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
 
-<filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
-  <feGaussianBlur stdDeviation="18"/>
-</filter>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
 
-<linearGradient id="glassStroke" x1="0" y1="0" x2="1" y2="1">
-  <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.55"/>
-  <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.12"/>
-  <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.28"/>
-</linearGradient>
+    <linearGradient id="glassStroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.28"/>
+    </linearGradient>
 
-<linearGradient id="glassFill" x1="0" y1="0" x2="1" y2="1">
-  <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.18"/>
-  <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.08"/>
-  <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.13"/>
-</linearGradient>
-
-<style>
-  .title {
-    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    font-size: 44px;
-    font-weight: 800;
-    fill: #F8FAFC;
-    letter-spacing: -1px;
-  }
-
-  .subtitle {
-    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    fill: #CBD5E1;
-  }
-
-  .section {
-    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    font-size: 22px;
-    font-weight: 750;
-    fill: #F1F5F9;
-  }
-
-  .chipText {
-    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    font-size: 15px;
-    font-weight: 750;
-    fill: #FFFFFF;
-    letter-spacing: 0.3px;
-  }
-
-  .chipSubtle {
-    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    font-size: 12px;
-    font-weight: 600;
-    fill: #CBD5E1;
-  }
-
-  .icon {
-    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    font-size: 18px;
-    font-weight: 900;
-    fill: #FFFFFF;
-  }
-</style>
-```
-
+    <linearGradient id="glassFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.18"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.13"/>
+    </linearGradient>
   </defs>
 
   <rect width="1100" height="720" rx="32" fill="url(#bg)"/>
@@ -102,184 +54,177 @@
 
   <rect x="36" y="36" width="1028" height="648" rx="28" fill="url(#glassFill)" stroke="url(#glassStroke)" stroke-width="1.4" filter="url(#cardShadow)"/>
 
-<text x="70" y="95" class="title">Tech Stack</text> <text x="72" y="128" class="subtitle">Modern mobile, full-stack, AI, and creative development tools</text>
+  <text x="70" y="95" font-family="Arial, sans-serif" font-size="44" font-weight="800" fill="#F8FAFC">Tech Stack</text>
+  <text x="72" y="128" font-family="Arial, sans-serif" font-size="18" font-weight="500" fill="#CBD5E1">Modern mobile, full-stack, AI, and creative development tools</text>
 
-  <!-- Mobile & Frontend -->
-
-<text x="72" y="190" class="section">Mobile & Frontend</text>
+  <text x="72" y="190" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#F1F5F9">Mobile &amp; Frontend</text>
 
   <g transform="translate(72, 220)">
     <rect width="165" height="56" rx="18" fill="#20232A" fill-opacity="0.78" stroke="#61DAFB" stroke-opacity="0.45"/>
     <circle cx="31" cy="28" r="14" fill="#61DAFB" fill-opacity="0.18"/>
-    <text x="25" y="34" class="icon">⚛</text>
-    <text x="56" y="34" class="chipText">React Native</text>
+    <text x="24" y="34" font-family="Arial, sans-serif" font-size="18" font-weight="900" fill="#FFFFFF">R</text>
+    <text x="56" y="34" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">React Native</text>
   </g>
 
   <g transform="translate(252, 220)">
     <rect width="118" height="56" rx="18" fill="#000020" fill-opacity="0.78" stroke="#FFFFFF" stroke-opacity="0.35"/>
     <circle cx="31" cy="28" r="14" fill="#FFFFFF" fill-opacity="0.14"/>
-    <text x="25" y="34" class="icon">⌃</text>
-    <text x="56" y="34" class="chipText">Expo</text>
+    <text x="25" y="34" font-family="Arial, sans-serif" font-size="18" font-weight="900" fill="#FFFFFF">E</text>
+    <text x="56" y="34" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">Expo</text>
   </g>
 
   <g transform="translate(385, 220)">
     <rect width="132" height="56" rx="18" fill="#02569B" fill-opacity="0.78" stroke="#5CC8F8" stroke-opacity="0.45"/>
     <circle cx="31" cy="28" r="14" fill="#5CC8F8" fill-opacity="0.18"/>
-    <text x="25" y="34" class="icon">◆</text>
-    <text x="56" y="34" class="chipText">Flutter</text>
+    <text x="25" y="34" font-family="Arial, sans-serif" font-size="18" font-weight="900" fill="#FFFFFF">F</text>
+    <text x="56" y="34" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">Flutter</text>
   </g>
 
   <g transform="translate(532, 220)">
     <rect width="145" height="56" rx="18" fill="#3DDC84" fill-opacity="0.78" stroke="#A7F3D0" stroke-opacity="0.45"/>
     <circle cx="31" cy="28" r="14" fill="#FFFFFF" fill-opacity="0.18"/>
-    <text x="24" y="34" class="icon">☊</text>
-    <text x="56" y="34" class="chipText">Android</text>
+    <text x="24" y="34" font-family="Arial, sans-serif" font-size="18" font-weight="900" fill="#FFFFFF">A</text>
+    <text x="56" y="34" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">Android</text>
   </g>
 
   <g transform="translate(692, 220)">
     <rect width="118" height="56" rx="18" fill="#20232A" fill-opacity="0.78" stroke="#61DAFB" stroke-opacity="0.45"/>
     <circle cx="31" cy="28" r="14" fill="#61DAFB" fill-opacity="0.18"/>
-    <text x="25" y="34" class="icon">⚛</text>
-    <text x="56" y="34" class="chipText">React</text>
+    <text x="24" y="34" font-family="Arial, sans-serif" font-size="18" font-weight="900" fill="#FFFFFF">R</text>
+    <text x="56" y="34" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">React</text>
   </g>
 
   <g transform="translate(825, 220)">
     <rect width="150" height="56" rx="18" fill="#7952B3" fill-opacity="0.78" stroke="#C4B5FD" stroke-opacity="0.45"/>
     <circle cx="31" cy="28" r="14" fill="#FFFFFF" fill-opacity="0.18"/>
-    <text x="25" y="34" class="icon">B</text>
-    <text x="56" y="34" class="chipText">Bootstrap</text>
+    <text x="25" y="34" font-family="Arial, sans-serif" font-size="18" font-weight="900" fill="#FFFFFF">B</text>
+    <text x="56" y="34" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">Bootstrap</text>
   </g>
 
-  <!-- Languages -->
-
-<text x="72" y="340" class="section">Languages</text>
+  <text x="72" y="340" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#F1F5F9">Languages</text>
 
   <g transform="translate(72, 370)">
     <rect width="110" height="56" rx="18" fill="#ED8B00" fill-opacity="0.80" stroke="#FED7AA" stroke-opacity="0.45"/>
     <circle cx="31" cy="28" r="14" fill="#FFFFFF" fill-opacity="0.17"/>
-    <text x="25" y="34" class="icon">J</text>
-    <text x="56" y="34" class="chipText">Java</text>
+    <text x="25" y="34" font-family="Arial, sans-serif" font-size="18" font-weight="900" fill="#FFFFFF">J</text>
+    <text x="56" y="34" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">Java</text>
   </g>
 
   <g transform="translate(197, 370)">
     <rect width="155" height="56" rx="18" fill="#F7DF1E" fill-opacity="0.88" stroke="#FEF3C7" stroke-opacity="0.45"/>
     <circle cx="31" cy="28" r="14" fill="#000000" fill-opacity="0.18"/>
-    <text x="24" y="34" class="icon" fill="#111827">JS</text>
-    <text x="56" y="34" class="chipText" fill="#111827">JavaScript</text>
+    <text x="24" y="34" font-family="Arial, sans-serif" font-size="18" font-weight="900" fill="#111827">JS</text>
+    <text x="56" y="34" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">JavaScript</text>
   </g>
 
   <g transform="translate(367, 370)">
     <rect width="130" height="56" rx="18" fill="#3776AB" fill-opacity="0.80" stroke="#BFDBFE" stroke-opacity="0.45"/>
     <circle cx="31" cy="28" r="14" fill="#FFFFFF" fill-opacity="0.17"/>
-    <text x="25" y="34" class="icon">Py</text>
-    <text x="61" y="34" class="chipText">Python</text>
+    <text x="24" y="34" font-family="Arial, sans-serif" font-size="18" font-weight="900" fill="#FFFFFF">Py</text>
+    <text x="61" y="34" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">Python</text>
   </g>
 
   <g transform="translate(512, 370)">
     <rect width="85" height="56" rx="18" fill="#00599C" fill-opacity="0.80" stroke="#7DD3FC" stroke-opacity="0.45"/>
     <circle cx="31" cy="28" r="14" fill="#FFFFFF" fill-opacity="0.17"/>
-    <text x="26" y="34" class="icon">C</text>
-    <text x="58" y="34" class="chipText">C</text>
+    <text x="26" y="34" font-family="Arial, sans-serif" font-size="18" font-weight="900" fill="#FFFFFF">C</text>
+    <text x="58" y="34" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">C</text>
   </g>
 
   <g transform="translate(612, 370)">
     <rect width="100" height="56" rx="18" fill="#00599C" fill-opacity="0.80" stroke="#7DD3FC" stroke-opacity="0.45"/>
     <circle cx="31" cy="28" r="14" fill="#FFFFFF" fill-opacity="0.17"/>
-    <text x="20" y="34" class="icon">C++</text>
-    <text x="62" y="34" class="chipText">C++</text>
+    <text x="19" y="34" font-family="Arial, sans-serif" font-size="18" font-weight="900" fill="#FFFFFF">C++</text>
+    <text x="62" y="34" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">C++</text>
   </g>
 
   <g transform="translate(727, 370)">
     <rect width="120" height="56" rx="18" fill="#E34F26" fill-opacity="0.82" stroke="#FDBA74" stroke-opacity="0.45"/>
     <circle cx="31" cy="28" r="14" fill="#FFFFFF" fill-opacity="0.17"/>
-    <text x="22" y="34" class="icon">5</text>
-    <text x="56" y="34" class="chipText">HTML5</text>
+    <text x="25" y="34" font-family="Arial, sans-serif" font-size="18" font-weight="900" fill="#FFFFFF">H</text>
+    <text x="56" y="34" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">HTML5</text>
   </g>
 
   <g transform="translate(862, 370)">
     <rect width="105" height="56" rx="18" fill="#1572B6" fill-opacity="0.82" stroke="#93C5FD" stroke-opacity="0.45"/>
     <circle cx="31" cy="28" r="14" fill="#FFFFFF" fill-opacity="0.17"/>
-    <text x="22" y="34" class="icon">#</text>
-    <text x="56" y="34" class="chipText">CSS3</text>
+    <text x="25" y="34" font-family="Arial, sans-serif" font-size="18" font-weight="900" fill="#FFFFFF">C</text>
+    <text x="56" y="34" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">CSS3</text>
   </g>
 
-  <!-- Backend -->
-
-<text x="72" y="490" class="section">Backend, Databases & Tools</text>
+  <text x="72" y="490" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#F1F5F9">Backend, Databases &amp; Tools</text>
 
   <g transform="translate(72, 520)">
     <rect width="130" height="56" rx="18" fill="#339933" fill-opacity="0.82" stroke="#86EFAC" stroke-opacity="0.45"/>
     <circle cx="31" cy="28" r="14" fill="#FFFFFF" fill-opacity="0.17"/>
-    <text x="22" y="34" class="icon">JS</text>
-    <text x="56" y="34" class="chipText">Node.js</text>
+    <text x="22" y="34" font-family="Arial, sans-serif" font-size="18" font-weight="900" fill="#FFFFFF">JS</text>
+    <text x="56" y="34" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">Node.js</text>
   </g>
 
   <g transform="translate(217, 520)">
     <rect width="135" height="56" rx="18" fill="#FFCA28" fill-opacity="0.88" stroke="#FEF3C7" stroke-opacity="0.45"/>
     <circle cx="31" cy="28" r="14" fill="#000000" fill-opacity="0.14"/>
-    <text x="24" y="34" class="icon" fill="#111827">🔥</text>
-    <text x="56" y="34" class="chipText" fill="#111827">Firebase</text>
+    <text x="25" y="34" font-family="Arial, sans-serif" font-size="18" font-weight="900" fill="#111827">F</text>
+    <text x="56" y="34" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">Firebase</text>
   </g>
 
   <g transform="translate(367, 520)">
     <rect width="135" height="56" rx="18" fill="#47A248" fill-opacity="0.82" stroke="#86EFAC" stroke-opacity="0.45"/>
     <circle cx="31" cy="28" r="14" fill="#FFFFFF" fill-opacity="0.17"/>
-    <text x="25" y="34" class="icon">◐</text>
-    <text x="56" y="34" class="chipText">MongoDB</text>
+    <text x="25" y="34" font-family="Arial, sans-serif" font-size="18" font-weight="900" fill="#FFFFFF">M</text>
+    <text x="56" y="34" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">MongoDB</text>
   </g>
 
   <g transform="translate(517, 520)">
     <rect width="115" height="56" rx="18" fill="#4479A1" fill-opacity="0.82" stroke="#93C5FD" stroke-opacity="0.45"/>
     <circle cx="31" cy="28" r="14" fill="#FFFFFF" fill-opacity="0.17"/>
-    <text x="20" y="34" class="icon">SQL</text>
-    <text x="60" y="34" class="chipText">MySQL</text>
+    <text x="18" y="34" font-family="Arial, sans-serif" font-size="18" font-weight="900" fill="#FFFFFF">SQL</text>
+    <text x="60" y="34" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">MySQL</text>
   </g>
 
   <g transform="translate(647, 520)">
     <rect width="95" height="56" rx="18" fill="#F05032" fill-opacity="0.82" stroke="#FDBA74" stroke-opacity="0.45"/>
     <circle cx="31" cy="28" r="14" fill="#FFFFFF" fill-opacity="0.17"/>
-    <text x="25" y="34" class="icon">⌁</text>
-    <text x="56" y="34" class="chipText">Git</text>
+    <text x="25" y="34" font-family="Arial, sans-serif" font-size="18" font-weight="900" fill="#FFFFFF">G</text>
+    <text x="56" y="34" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">Git</text>
   </g>
 
   <g transform="translate(757, 520)">
     <rect width="115" height="56" rx="18" fill="#FCC624" fill-opacity="0.88" stroke="#FEF3C7" stroke-opacity="0.45"/>
     <circle cx="31" cy="28" r="14" fill="#000000" fill-opacity="0.14"/>
-    <text x="24" y="34" class="icon" fill="#111827">🐧</text>
-    <text x="56" y="34" class="chipText" fill="#111827">Linux</text>
+    <text x="25" y="34" font-family="Arial, sans-serif" font-size="18" font-weight="900" fill="#111827">L</text>
+    <text x="56" y="34" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">Linux</text>
   </g>
 
-  <!-- AI / Data -->
-
-<text x="72" y="635" class="section">AI, Data & Creative Tools</text>
+  <text x="72" y="635" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#F1F5F9">AI, Data &amp; Creative Tools</text>
 
   <g transform="translate(72, 660)">
     <rect width="120" height="42" rx="14" fill="#150458" fill-opacity="0.88" stroke="#C4B5FD" stroke-opacity="0.45"/>
-    <text x="20" y="27" class="chipText">Pandas</text>
+    <text x="20" y="27" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">Pandas</text>
   </g>
 
   <g transform="translate(207, 660)">
     <rect width="155" height="42" rx="14" fill="#F7931E" fill-opacity="0.88" stroke="#FED7AA" stroke-opacity="0.45"/>
-    <text x="20" y="27" class="chipText">scikit-learn</text>
+    <text x="20" y="27" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">scikit-learn</text>
   </g>
 
   <g transform="translate(377, 660)">
     <rect width="120" height="42" rx="14" fill="#EE4C2C" fill-opacity="0.88" stroke="#FDBA74" stroke-opacity="0.45"/>
-    <text x="20" y="27" class="chipText">PyTorch</text>
+    <text x="20" y="27" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">PyTorch</text>
   </g>
 
   <g transform="translate(512, 660)">
     <rect width="145" height="42" rx="14" fill="#FF6F00" fill-opacity="0.88" stroke="#FED7AA" stroke-opacity="0.45"/>
-    <text x="20" y="27" class="chipText">TensorFlow</text>
+    <text x="20" y="27" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">TensorFlow</text>
   </g>
 
   <g transform="translate(672, 660)">
     <rect width="120" height="42" rx="14" fill="#00979D" fill-opacity="0.88" stroke="#67E8F9" stroke-opacity="0.45"/>
-    <text x="20" y="27" class="chipText">Arduino</text>
+    <text x="20" y="27" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">Arduino</text>
   </g>
 
   <g transform="translate(807, 660)">
     <rect width="120" height="42" rx="14" fill="#E87D0D" fill-opacity="0.88" stroke="#FED7AA" stroke-opacity="0.45"/>
-    <text x="20" y="27" class="chipText">Blender</text>
+    <text x="20" y="27" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">Blender</text>
   </g>
 </svg>
