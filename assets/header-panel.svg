@@ -1,0 +1,316 @@
+
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="900">
+      <stop offset="0%" stop-color="#07152A"></stop>
+      <stop offset="45%" stop-color="#111B35"></stop>
+      <stop offset="100%" stop-color="#060810"></stop>
+    </linearGradient>
+
+    <radialGradient id="glowBlue" cx="18%" cy="12%" r="60%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.34"></stop>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"></stop>
+    </radialGradient>
+
+    <radialGradient id="glowPurple" cx="88%" cy="10%" r="54%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.30"></stop>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0"></stop>
+    </radialGradient>
+
+    <radialGradient id="glowOrange" cx="82%" cy="88%" r="48%">
+      <stop offset="0%" stop-color="#FB923C" stop-opacity="0.22"></stop>
+      <stop offset="100%" stop-color="#FB923C" stop-opacity="0"></stop>
+    </radialGradient>
+
+    <linearGradient id="glassFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.14"></stop>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.05"></stop>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.10"></stop>
+    </linearGradient>
+
+    <linearGradient id="glassStroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.42"></stop>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.10"></stop>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.18"></stop>
+    </linearGradient>
+
+    <linearGradient id="innerPanelFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.08"></stop>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.04"></stop>
+    </linearGradient>
+
+    <linearGradient id="innerPanelStroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.18"></stop>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.08"></stop>
+    </linearGradient>
+
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="18"></feGaussianBlur>
+    </filter>
+
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000000" flood-opacity="0.22"></feDropShadow>
+    </filter>
+
+    <style>
+      .title {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 42px;
+        font-weight: 800;
+        fill: #F8FAFC;
+      }
+
+      .sub {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        fill: #C9D6E7;
+      }
+
+      .summary {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        fill: #D6E1EF;
+      }
+
+      .sectionTitle {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 32px;
+        font-weight: 800;
+        fill: #F8FAFC;
+      }
+
+      .sectionSub {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        fill: #D7E0EC;
+      }
+
+      .miniSection {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        fill: #F5F7FB;
+      }
+
+      .cardTitleBlue,
+      .cardTitleCyan,
+      .cardTitlePurple,
+      .cardTitlePink {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+      }
+
+      .cardTitleBlue { fill: #4FB8FF; }
+      .cardTitleCyan { fill: #67E8F9; }
+      .cardTitlePurple { fill: #B983FF; }
+      .cardTitlePink { fill: #FF8AD8; }
+
+      .cardBody {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13.5px;
+        font-weight: 500;
+        fill: #F3F6FA;
+      }
+
+      .chipText {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        fill: #FFFFFF;
+      }
+
+      .chipTextDark {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        fill: #111827;
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="900" rx="30" fill="url(#bg)"></rect>
+  <rect width="1200" height="900" rx="30" fill="url(#glowBlue)"></rect>
+  <rect width="1200" height="900" rx="30" fill="url(#glowPurple)"></rect>
+  <rect width="1200" height="900" rx="30" fill="url(#glowOrange)"></rect>
+
+  <circle cx="130" cy="85" r="90" fill="#38BDF8" opacity="0.14" filter="url(#softGlow)"></circle>
+  <circle cx="1040" cy="85" r="110" fill="#A855F7" opacity="0.16" filter="url(#softGlow)"></circle>
+  <circle cx="950" cy="780" r="140" fill="#FB923C" opacity="0.12" filter="url(#softGlow)"></circle>
+
+  <rect x="1.5" y="1.5" width="1197" height="897" rx="28.5" fill="url(#glassFill)" stroke="url(#glassStroke)" stroke-width="1.5"></rect>
+
+  <text x="50" y="78" class="title">Computer Science</text>
+  <text x="50" y="110" class="sub">B.S. in Computer Science  •  Minor in Artificial Intelligence</text>
+  <line x1="50" y1="134" x2="660" y2="134" stroke="#63B3ED" stroke-opacity="0.45" stroke-width="3"></line>
+  <text x="50" y="166" class="summary">Focused on mobile apps, AI, and full-stack development.</text>
+
+  <g transform="translate(50, 205)">
+    <rect width="260" height="172" rx="24" fill="#0B1730" fill-opacity="0.22" stroke="#59C5FF" stroke-opacity="0.75" stroke-width="1.6" filter="url(#cardShadow)"></rect>
+    <text x="130" y="36" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#59C5FF">⌨</text>
+    <text x="130" y="66" text-anchor="middle" class="cardTitleBlue">Current Project</text>
+    <line x1="101" y1="84" x2="159" y2="84" stroke="#59C5FF" stroke-width="3" stroke-linecap="round"></line>
+    <text x="130" y="116" text-anchor="middle" class="cardBody">
+      <tspan x="130" dy="0">Mobile application using</tspan>
+      <tspan x="130" dy="22">JavaScript, React Native,</tspan>
+      <tspan x="130" dy="22">and Expo</tspan>
+    </text>
+  </g>
+
+  <g transform="translate(330, 205)">
+    <rect width="260" height="172" rx="24" fill="#0B1730" fill-opacity="0.22" stroke="#73F0F6" stroke-opacity="0.75" stroke-width="1.6" filter="url(#cardShadow)"></rect>
+    <text x="130" y="36" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#73F0F6">⌁</text>
+    <text x="130" y="66" text-anchor="middle" class="cardTitleCyan">Learning</text>
+    <line x1="101" y1="84" x2="159" y2="84" stroke="#73F0F6" stroke-width="3" stroke-linecap="round"></line>
+    <text x="130" y="116" text-anchor="middle" class="cardBody">
+      <tspan x="130" dy="0">Java, Flutter, and</tspan>
+      <tspan x="130" dy="22">refreshing Python</tspan>
+      <tspan x="130" dy="22">AI tooling</tspan>
+    </text>
+  </g>
+
+  <g transform="translate(610, 205)">
+    <rect width="260" height="172" rx="24" fill="#0B1730" fill-opacity="0.22" stroke="#B983FF" stroke-opacity="0.75" stroke-width="1.6" filter="url(#cardShadow)"></rect>
+    <text x="130" y="36" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#B983FF">◌◌◌</text>
+    <text x="130" y="66" text-anchor="middle" class="cardTitlePurple">Collaboration</text>
+    <line x1="101" y1="84" x2="159" y2="84" stroke="#B983FF" stroke-width="3" stroke-linecap="round"></line>
+    <text x="130" y="116" text-anchor="middle" class="cardBody">
+      <tspan x="130" dy="0">Open to AI and</tspan>
+      <tspan x="130" dy="22">full-stack development</tspan>
+      <tspan x="130" dy="22">projects</tspan>
+    </text>
+  </g>
+
+  <g transform="translate(890, 205)">
+    <rect width="260" height="172" rx="24" fill="#0B1730" fill-opacity="0.22" stroke="#FF9AD7" stroke-opacity="0.75" stroke-width="1.6" filter="url(#cardShadow)"></rect>
+    <text x="130" y="36" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#FF9AD7">⟟</text>
+    <text x="130" y="66" text-anchor="middle" class="cardTitlePink">Help Wanted</text>
+    <line x1="101" y1="84" x2="159" y2="84" stroke="#FF9AD7" stroke-width="3" stroke-linecap="round"></line>
+    <text x="130" y="116" text-anchor="middle" class="cardBody">
+      <tspan x="130" dy="0">Local distribution of</tspan>
+      <tspan x="130" dy="22">an iOS .ipa file</tspan>
+    </text>
+  </g>
+
+  <line x1="50" y1="410" x2="1150" y2="410" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="2"></line>
+
+  <rect x="40" y="430" width="1120" height="450" rx="28" fill="url(#innerPanelFill)" stroke="url(#innerPanelStroke)" stroke-width="1.2"></rect>
+
+  <text x="70" y="482" class="sectionTitle">Tech Stack</text>
+  <text x="70" y="510" class="sectionSub">Modern mobile, full-stack, AI, and creative development tools</text>
+
+  <text x="70" y="548" class="miniSection">Languages</text>
+
+  <g transform="translate(70, 564)">
+    <rect width="100" height="40" rx="15" fill="#8A6A22" fill-opacity="0.62" stroke="#F6C26A" stroke-opacity="0.85" stroke-width="1.2"></rect>
+    <text x="50" y="25" text-anchor="middle" class="chipText">Java</text>
+  </g>
+  <g transform="translate(184, 564)">
+    <rect width="150" height="40" rx="15" fill="#B5A93A" fill-opacity="0.74" stroke="#FFF3A8" stroke-opacity="0.85" stroke-width="1.2"></rect>
+    <text x="75" y="25" text-anchor="middle" class="chipTextDark">JavaScript</text>
+  </g>
+  <g transform="translate(348, 564)">
+    <rect width="120" height="40" rx="15" fill="#34678F" fill-opacity="0.72" stroke="#A9D0F5" stroke-opacity="0.85" stroke-width="1.2"></rect>
+    <text x="60" y="25" text-anchor="middle" class="chipText">Python</text>
+  </g>
+  <g transform="translate(482, 564)">
+    <rect width="70" height="40" rx="15" fill="#22649A" fill-opacity="0.72" stroke="#8CCAF2" stroke-opacity="0.85" stroke-width="1.2"></rect>
+    <text x="35" y="25" text-anchor="middle" class="chipText">C</text>
+  </g>
+  <g transform="translate(566, 564)">
+    <rect width="82" height="40" rx="15" fill="#265D8E" fill-opacity="0.72" stroke="#8CCAF2" stroke-opacity="0.85" stroke-width="1.2"></rect>
+    <text x="41" y="25" text-anchor="middle" class="chipText">C++</text>
+  </g>
+  <g transform="translate(662, 564)">
+    <rect width="108" height="40" rx="15" fill="#8E5846" fill-opacity="0.72" stroke="#F8B397" stroke-opacity="0.85" stroke-width="1.2"></rect>
+    <text x="54" y="25" text-anchor="middle" class="chipText">HTML5</text>
+  </g>
+  <g transform="translate(784, 564)">
+    <rect width="96" height="40" rx="15" fill="#476A96" fill-opacity="0.72" stroke="#A7D2F3" stroke-opacity="0.85" stroke-width="1.2"></rect>
+    <text x="48" y="25" text-anchor="middle" class="chipText">CSS3</text>
+  </g>
+
+  <text x="70" y="632" class="miniSection">Mobile &amp; Frontend</text>
+
+  <g transform="translate(70, 648)">
+    <rect width="158" height="40" rx="15" fill="#2C495A" fill-opacity="0.70" stroke="#61DAFB" stroke-opacity="0.85" stroke-width="1.2"></rect>
+    <text x="79" y="25" text-anchor="middle" class="chipText">React Native</text>
+  </g>
+  <g transform="translate(242, 648)">
+    <rect width="96" height="40" rx="15" fill="#323B55" fill-opacity="0.70" stroke="#C6D1E0" stroke-opacity="0.70" stroke-width="1.2"></rect>
+    <text x="48" y="25" text-anchor="middle" class="chipText">Expo</text>
+  </g>
+  <g transform="translate(352, 648)">
+    <rect width="118" height="40" rx="15" fill="#235E8F" fill-opacity="0.70" stroke="#5CC8F8" stroke-opacity="0.85" stroke-width="1.2"></rect>
+    <text x="59" y="25" text-anchor="middle" class="chipText">Flutter</text>
+  </g>
+  <g transform="translate(484, 648)">
+    <rect width="132" height="40" rx="15" fill="#4C8A69" fill-opacity="0.74" stroke="#BBF7D0" stroke-opacity="0.85" stroke-width="1.2"></rect>
+    <text x="66" y="25" text-anchor="middle" class="chipText">Android</text>
+  </g>
+  <g transform="translate(630, 648)">
+    <rect width="102" height="40" rx="15" fill="#324250" fill-opacity="0.70" stroke="#61DAFB" stroke-opacity="0.85" stroke-width="1.2"></rect>
+    <text x="51" y="25" text-anchor="middle" class="chipText">React</text>
+  </g>
+  <g transform="translate(746, 648)">
+    <rect width="130" height="40" rx="15" fill="#695086" fill-opacity="0.72" stroke="#D8B4FE" stroke-opacity="0.85" stroke-width="1.2"></rect>
+    <text x="65" y="25" text-anchor="middle" class="chipText">Bootstrap</text>
+  </g>
+
+  <text x="70" y="716" class="miniSection">Backend, Databases &amp; Tools</text>
+
+  <g transform="translate(70, 732)">
+    <rect width="112" height="40" rx="15" fill="#3B7A53" fill-opacity="0.72" stroke="#A9E8AB" stroke-opacity="0.85" stroke-width="1.2"></rect>
+    <text x="56" y="25" text-anchor="middle" class="chipText">Node.js</text>
+  </g>
+  <g transform="translate(196, 732)">
+    <rect width="128" height="40" rx="15" fill="#9B8B3D" fill-opacity="0.76" stroke="#FFE494" stroke-opacity="0.85" stroke-width="1.2"></rect>
+    <text x="64" y="25" text-anchor="middle" class="chipTextDark">Firebase</text>
+  </g>
+  <g transform="translate(338, 732)">
+    <rect width="130" height="40" rx="15" fill="#4C7A58" fill-opacity="0.72" stroke="#B4E7B4" stroke-opacity="0.85" stroke-width="1.2"></rect>
+    <text x="65" y="25" text-anchor="middle" class="chipText">MongoDB</text>
+  </g>
+  <g transform="translate(482, 732)">
+    <rect width="106" height="40" rx="15" fill="#627B97" fill-opacity="0.74" stroke="#B5D5EF" stroke-opacity="0.85" stroke-width="1.2"></rect>
+    <text x="53" y="25" text-anchor="middle" class="chipText">MySQL</text>
+  </g>
+  <g transform="translate(602, 732)">
+    <rect width="80" height="40" rx="15" fill="#8B5A50" fill-opacity="0.74" stroke="#F6B29A" stroke-opacity="0.85" stroke-width="1.2"></rect>
+    <text x="40" y="25" text-anchor="middle" class="chipText">Git</text>
+  </g>
+  <g transform="translate(696, 732)">
+    <rect width="92" height="40" rx="15" fill="#A08A4E" fill-opacity="0.76" stroke="#FFE494" stroke-opacity="0.85" stroke-width="1.2"></rect>
+    <text x="46" y="25" text-anchor="middle" class="chipTextDark">Linux</text>
+  </g>
+
+  <text x="70" y="800" class="miniSection">AI, Data &amp; Creative Tools</text>
+
+  <g transform="translate(70, 816)">
+    <rect width="108" height="40" rx="15" fill="#544885" fill-opacity="0.72" stroke="#C6B3F7" stroke-opacity="0.85" stroke-width="1.2"></rect>
+    <text x="54" y="25" text-anchor="middle" class="chipText">Pandas</text>
+  </g>
+  <g transform="translate(192, 816)">
+    <rect width="148" height="40" rx="15" fill="#9C8452" fill-opacity="0.78" stroke="#F8D29A" stroke-opacity="0.85" stroke-width="1.2"></rect>
+    <text x="74" y="25" text-anchor="middle" class="chipText">scikit-learn</text>
+  </g>
+  <g transform="translate(354, 816)">
+    <rect width="116" height="40" rx="15" fill="#915F54" fill-opacity="0.74" stroke="#F4B39B" stroke-opacity="0.85" stroke-width="1.2"></rect>
+    <text x="58" y="25" text-anchor="middle" class="chipText">PyTorch</text>
+  </g>
+  <g transform="translate(484, 816)">
+    <rect width="138" height="40" rx="15" fill="#A57A47" fill-opacity="0.78" stroke="#F8CB96" stroke-opacity="0.85" stroke-width="1.2"></rect>
+    <text x="69" y="25" text-anchor="middle" class="chipText">TensorFlow</text>
+  </g>
+  <g transform="translate(636, 816)">
+    <rect width="114" height="40" rx="15" fill="#4F7E85" fill-opacity="0.74" stroke="#97ECF0" stroke-opacity="0.85" stroke-width="1.2"></rect>
+    <text x="57" y="25" text-anchor="middle" class="chipText">Arduino</text>
+  </g>
+  <g transform="translate(764, 816)">
+    <rect width="112" height="40" rx="15" fill="#A27A4B" fill-opacity="0.78" stroke="#F7CCA0" stroke-opacity="0.85" stroke-width="1.2"></rect>
+    <text x="56" y="25" text-anchor="middle" class="chipText">Blender</text>
+  </g>
+</svg>
