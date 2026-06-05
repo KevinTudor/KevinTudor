@@ -78,20 +78,38 @@
 ## GitHub Stats
 
 <p align="center">
-  <img src="./profile-summary-card-output/github_dark/0-profile-details.svg" alt="Kevin Tudor GitHub profile details" width="100%" />
+  <img 
+    src="./profile-summary-card-output/github_dark/0-profile-details.svg" 
+    alt="Kevin Tudor GitHub profile details" 
+    width="700" 
+  />
 </p>
 
-<p align="center">
-  <img src="./profile-summary-card-output/github_dark/3-stats.svg" alt="Kevin Tudor GitHub stats" width="100%" />
-</p>
-
-<p align="center">
-  <img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Kevin Tudor top languages by repository" width="100%" />
-</p>
-
-<p align="center">
-  <img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Kevin Tudor top languages by commit" width="100%" />
-</p>
+<table align="center" width="100%">
+  <tr>
+    <td align="center" width="33%">
+      <img 
+        src="./profile-summary-card-output/github_dark/3-stats.svg" 
+        alt="Kevin Tudor GitHub stats" 
+        width="100%" 
+      />
+    </td>
+    <td align="center" width="33%">
+      <img 
+        src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" 
+        alt="Kevin Tudor top languages by repository" 
+        width="100%" 
+      />
+    </td>
+    <td align="center" width="33%">
+      <img 
+        src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" 
+        alt="Kevin Tudor top languages by commit" 
+        width="100%" 
+      />
+    </td>
+  </tr>
+</table>
 
 ---
 
