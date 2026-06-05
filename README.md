@@ -29,7 +29,7 @@
         <h3>Connect with me:</h3>
           <a href="mailto:KevinTudor.Work@gmail.com">KevinTudor.Work@gmail.com</a><br>
           <a href="https://linkedin.com/in/kevin-tudor" target="_blank"><br>
-            <img src="https://media.licdn.com/dms/image/C560BAQHaVYd13rRz3A/company-logo_200_200/0/1638831589865?e=1702512000&v=beta&t=u1LVAxhGUCYerdi4BqYixOS94OD0Es6o70bz2KsmIXU" width="30" height="30">
+            <img src="[https://media.licdn.com/dms/image/C560BAQHaVYd13rRz3A/company-logo_200_200/0/1638831589865?e=1702512000&v=beta&t=u1LVAxhGUCYerdi4BqYixOS94OD0Es6o70bz2KsmIXU](https://www.linkedin.com/in/kevin-tudor/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BkqDk0ysrSPuCpiZTwqqWcw%3D%3D)" width="30" height="30">
           </a>
       </p>
     </td>
