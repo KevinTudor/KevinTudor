@@ -1,24 +1,8 @@
----
-<p align="center">
-  <b>Computer Science graduate from Florida Atlantic University</b><br/>
-  B.S. in Computer Science • Minor in Artificial Intelligence
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=kevintudor&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
-</p>
-
----
-
-## About Me
-
 <p align="center">
   <img src="assets/about-me-panel.svg?v=2026-06-04-1" alt="Kevin Tudor Tech Stack" width="100%" />
 </p>
 
 ---
-
-## Tech Stack
 
 <p align="center">
   <img src="assets/tech-stack-panel.svg?v=2026-06-04-1" alt="Kevin Tudor Tech Stack" width="100%" />
@@ -26,8 +10,6 @@
 
 
 ---
-
-## GitHub Stats
 
 <p align="center">
   <img 
@@ -77,4 +59,8 @@
   <a href="https://linkedin.com/in/kevin-tudor" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-Kevin_Tudor-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=kevintudor&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
 </p>
