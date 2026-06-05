@@ -12,16 +12,9 @@
 
 ## About Me
 
-* 🔭 I’m currently working on a **mobile application using JavaScript, React Native, and Expo**
-  [View the project](https://github.com/KevinTudor/AAA_MobileApp.git)
-
-* 🌱 I’m currently learning **Java**, **Flutter**, and refreshing my **Python AI tooling**
-
-* 👯 I’m interested in collaborating on **AI** and **Full-Stack Development** projects
-
-* 🤝 I’m looking for help with **locally distributing an iOS `.ipa` file**
-
-* 👨‍💻 All of my projects are available on my [GitHub profile](https://github.com/KevinTudor?tab=repositories)
+<p align="center">
+  <img src="assets/about-me-panel.svg?v=2026-06-04-1" alt="Kevin Tudor Tech Stack" width="100%" />
+</p>
 
 ---
 
