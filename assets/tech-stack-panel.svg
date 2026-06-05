@@ -22,12 +22,16 @@
       <stop offset="100%" stop-color="#FB923C" stop-opacity="0"></stop>
     </radialGradient>
 
-    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000000" flood-opacity="0.24"></feDropShadow>
-    </filter>
-
     <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
       <feGaussianBlur stdDeviation="16"></feGaussianBlur>
+    </filter>
+
+    <filter id="chipBlur" x="-25%" y="-40%" width="150%" height="180%">
+      <feGaussianBlur stdDeviation="8"></feGaussianBlur>
+    </filter>
+
+    <filter id="chipShadow" x="-20%" y="-30%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.20"></feDropShadow>
     </filter>
 
     <linearGradient id="glassStroke" x1="0" y1="0" x2="1" y2="1">
@@ -42,6 +46,12 @@
       <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.10"></stop>
     </linearGradient>
 
+    <linearGradient id="chipGloss" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.22"></stop>
+      <stop offset="40%" stop-color="#FFFFFF" stop-opacity="0.10"></stop>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.02"></stop>
+    </linearGradient>
+
     <style>
       .title {
         font-family: Arial, Helvetica, sans-serif;
@@ -49,27 +59,31 @@
         font-weight: 800;
         fill: #F8FAFC;
       }
+
       .subtitle {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 15px;
         font-weight: 500;
         fill: #D7E0EC;
       }
+
       .section {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 18px;
         font-weight: 700;
         fill: #F5F7FB;
       }
+
       .chipText {
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 14px;
+        font-size: 14.5px;
         font-weight: 700;
         fill: #FFFFFF;
       }
+
       .chipTextDark {
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 14px;
+        font-size: 14.5px;
         font-weight: 700;
         fill: #111827;
       }
@@ -87,118 +101,214 @@
 
   <rect x="1" y="1" width="1098" height="558" rx="27" fill="url(#glassFill)" stroke="url(#glassStroke)" stroke-width="1.2"></rect>
 
-  <text x="70" y="82" class="title">Tech Stack</text>
-  <text x="70" y="110" class="subtitle">Modern mobile, full-stack, AI, and creative development tools</text>
+  <text x="50" y="82" class="title">Tech Stack</text>
+  <text x="50" y="110" class="subtitle">Modern mobile, full-stack, AI, and creative development tools</text>
 
-  <text x="70" y="150" class="section">Languages</text>
+  <text x="50" y="150" class="section">Languages</text>
 
-  <g transform="translate(70, 168)">
-    <rect width="104" height="40" rx="15" fill="#D58A11" fill-opacity="0.94" stroke="#F6C26A" stroke-opacity="0.34"></rect>
+  <g transform="translate(50, 168)">
+    <rect x="-2" y="-2" width="108" height="44" rx="17" fill="#F6C26A" fill-opacity="0.12" filter="url(#chipBlur)"></rect>
+    <rect width="104" height="40" rx="15" fill="#D58A11" fill-opacity="0.34" stroke="#F6C26A" stroke-opacity="0.50" stroke-width="1.2" filter="url(#chipShadow)"></rect>
+    <rect x="1" y="1" width="102" height="38" rx="14" fill="url(#chipGloss)"></rect>
+    <rect x="8" y="6" width="88" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.10"></rect>
     <text x="52" y="25" text-anchor="middle" class="chipText">Java</text>
   </g>
-  <g transform="translate(188, 168)">
-    <rect width="160" height="40" rx="15" fill="#E5D126" fill-opacity="0.96" stroke="#FFF3A8" stroke-opacity="0.30"></rect>
+
+  <g transform="translate(168, 168)">
+    <rect x="-2" y="-2" width="164" height="44" rx="17" fill="#FFF3A8" fill-opacity="0.12" filter="url(#chipBlur)"></rect>
+    <rect width="160" height="40" rx="15" fill="#E5D126" fill-opacity="0.36" stroke="#FFF3A8" stroke-opacity="0.46" stroke-width="1.2" filter="url(#chipShadow)"></rect>
+    <rect x="1" y="1" width="158" height="38" rx="14" fill="url(#chipGloss)"></rect>
+    <rect x="8" y="6" width="144" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.10"></rect>
     <text x="80" y="25" text-anchor="middle" class="chipTextDark">JavaScript</text>
   </g>
-  <g transform="translate(362, 168)">
-    <rect width="126" height="40" rx="15" fill="#3D78AD" fill-opacity="0.92" stroke="#A9D0F5" stroke-opacity="0.30"></rect>
+
+  <g transform="translate(342, 168)">
+    <rect x="-2" y="-2" width="130" height="44" rx="17" fill="#A9D0F5" fill-opacity="0.12" filter="url(#chipBlur)"></rect>
+    <rect width="126" height="40" rx="15" fill="#3D78AD" fill-opacity="0.34" stroke="#A9D0F5" stroke-opacity="0.46" stroke-width="1.2" filter="url(#chipShadow)"></rect>
+    <rect x="1" y="1" width="124" height="38" rx="14" fill="url(#chipGloss)"></rect>
+    <rect x="8" y="6" width="110" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.10"></rect>
     <text x="63" y="25" text-anchor="middle" class="chipText">Python</text>
   </g>
-  <g transform="translate(502, 168)">
-    <rect width="74" height="40" rx="15" fill="#0B67AC" fill-opacity="0.94" stroke="#8CCAF2" stroke-opacity="0.30"></rect>
+
+  <g transform="translate(482, 168)">
+    <rect x="-2" y="-2" width="78" height="44" rx="17" fill="#8CCAF2" fill-opacity="0.12" filter="url(#chipBlur)"></rect>
+    <rect width="74" height="40" rx="15" fill="#0B67AC" fill-opacity="0.34" stroke="#8CCAF2" stroke-opacity="0.46" stroke-width="1.2" filter="url(#chipShadow)"></rect>
+    <rect x="1" y="1" width="72" height="38" rx="14" fill="url(#chipGloss)"></rect>
+    <rect x="8" y="6" width="58" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.10"></rect>
     <text x="37" y="25" text-anchor="middle" class="chipText">C</text>
   </g>
-  <g transform="translate(590, 168)">
-    <rect width="86" height="40" rx="15" fill="#0D629F" fill-opacity="0.94" stroke="#8CCAF2" stroke-opacity="0.30"></rect>
+
+  <g transform="translate(570, 168)">
+    <rect x="-2" y="-2" width="90" height="44" rx="17" fill="#8CCAF2" fill-opacity="0.12" filter="url(#chipBlur)"></rect>
+    <rect width="86" height="40" rx="15" fill="#0D629F" fill-opacity="0.34" stroke="#8CCAF2" stroke-opacity="0.46" stroke-width="1.2" filter="url(#chipShadow)"></rect>
+    <rect x="1" y="1" width="84" height="38" rx="14" fill="url(#chipGloss)"></rect>
+    <rect x="8" y="6" width="70" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.10"></rect>
     <text x="43" y="25" text-anchor="middle" class="chipText">C++</text>
   </g>
-  <g transform="translate(690, 168)">
-    <rect width="110" height="40" rx="15" fill="#D65A2C" fill-opacity="0.95" stroke="#F8B397" stroke-opacity="0.30"></rect>
+
+  <g transform="translate(670, 168)">
+    <rect x="-2" y="-2" width="114" height="44" rx="17" fill="#F8B397" fill-opacity="0.12" filter="url(#chipBlur)"></rect>
+    <rect width="110" height="40" rx="15" fill="#D65A2C" fill-opacity="0.34" stroke="#F8B397" stroke-opacity="0.46" stroke-width="1.2" filter="url(#chipShadow)"></rect>
+    <rect x="1" y="1" width="108" height="38" rx="14" fill="url(#chipGloss)"></rect>
+    <rect x="8" y="6" width="94" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.10"></rect>
     <text x="55" y="25" text-anchor="middle" class="chipText">HTML5</text>
   </g>
-  <g transform="translate(814, 168)">
-    <rect width="100" height="40" rx="15" fill="#2776BB" fill-opacity="0.95" stroke="#A7D2F3" stroke-opacity="0.30"></rect>
+
+  <g transform="translate(794, 168)">
+    <rect x="-2" y="-2" width="104" height="44" rx="17" fill="#A7D2F3" fill-opacity="0.12" filter="url(#chipBlur)"></rect>
+    <rect width="100" height="40" rx="15" fill="#2776BB" fill-opacity="0.34" stroke="#A7D2F3" stroke-opacity="0.46" stroke-width="1.2" filter="url(#chipShadow)"></rect>
+    <rect x="1" y="1" width="98" height="38" rx="14" fill="url(#chipGloss)"></rect>
+    <rect x="8" y="6" width="84" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.10"></rect>
     <text x="50" y="25" text-anchor="middle" class="chipText">CSS3</text>
   </g>
 
-  <text x="70" y="250" class="section">Mobile &amp; Frontend</text>
+  <text x="50" y="250" class="section">Mobile &amp; Frontend</text>
 
-  <g transform="translate(70, 268)">
-    <rect width="170" height="42" rx="15" fill="#20232A" fill-opacity="0.82" stroke="#61DAFB" stroke-opacity="0.40"></rect>
-    <text x="85" y="26" text-anchor="middle" class="chipText">React Native</text>
-  </g>
-  <g transform="translate(254, 268)">
-    <rect width="104" height="42" rx="15" fill="#000020" fill-opacity="0.82" stroke="#FFFFFF" stroke-opacity="0.26"></rect>
-    <text x="52" y="26" text-anchor="middle" class="chipText">Expo</text>
-  </g>
-  <g transform="translate(372, 268)">
-    <rect width="118" height="42" rx="15" fill="#02569B" fill-opacity="0.84" stroke="#5CC8F8" stroke-opacity="0.38"></rect>
-    <text x="59" y="26" text-anchor="middle" class="chipText">Flutter</text>
-  </g>
-  <g transform="translate(504, 268)">
-    <rect width="130" height="42" rx="15" fill="#3DDC84" fill-opacity="0.84" stroke="#BBF7D0" stroke-opacity="0.36"></rect>
-    <text x="65" y="26" text-anchor="middle" class="chipText">Android</text>
-  </g>
-  <g transform="translate(648, 268)">
-    <rect width="106" height="42" rx="15" fill="#20232A" fill-opacity="0.82" stroke="#61DAFB" stroke-opacity="0.40"></rect>
-    <text x="53" y="26" text-anchor="middle" class="chipText">React</text>
-  </g>
-  <g transform="translate(768, 268)">
-    <rect width="132" height="42" rx="15" fill="#7952B3" fill-opacity="0.84" stroke="#D8B4FE" stroke-opacity="0.36"></rect>
-    <text x="66" y="26" text-anchor="middle" class="chipText">Bootstrap</text>
+  <g transform="translate(50, 268)">
+    <rect x="-2" y="-2" width="174" height="44" rx="17" fill="#61DAFB" fill-opacity="0.12" filter="url(#chipBlur)"></rect>
+    <rect width="170" height="40" rx="15" fill="#20232A" fill-opacity="0.36" stroke="#61DAFB" stroke-opacity="0.50" stroke-width="1.2" filter="url(#chipShadow)"></rect>
+    <rect x="1" y="1" width="168" height="38" rx="14" fill="url(#chipGloss)"></rect>
+    <rect x="8" y="6" width="154" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.10"></rect>
+    <text x="85" y="25" text-anchor="middle" class="chipText">React Native</text>
   </g>
 
-  <text x="70" y="352" class="section">Backend, Databases &amp; Tools</text>
-
-  <g transform="translate(70, 370)">
-    <rect width="114" height="42" rx="15" fill="#349335" fill-opacity="0.94" stroke="#A9E8AB" stroke-opacity="0.30"></rect>
-    <text x="57" y="26" text-anchor="middle" class="chipText">Node.js</text>
-  </g>
-  <g transform="translate(198, 370)">
-    <rect width="130" height="42" rx="15" fill="#E5BB2C" fill-opacity="0.96" stroke="#FFE494" stroke-opacity="0.30"></rect>
-    <text x="65" y="26" text-anchor="middle" class="chipTextDark">Firebase</text>
-  </g>
-  <g transform="translate(342, 370)">
-    <rect width="132" height="42" rx="15" fill="#4B9A46" fill-opacity="0.94" stroke="#B4E7B4" stroke-opacity="0.30"></rect>
-    <text x="66" y="26" text-anchor="middle" class="chipText">MongoDB</text>
-  </g>
-  <g transform="translate(488, 370)">
-    <rect width="108" height="42" rx="15" fill="#5685AC" fill-opacity="0.94" stroke="#B5D5EF" stroke-opacity="0.30"></rect>
-    <text x="54" y="26" text-anchor="middle" class="chipText">MySQL</text>
-  </g>
-  <g transform="translate(610, 370)">
-    <rect width="82" height="42" rx="15" fill="#DD5634" fill-opacity="0.95" stroke="#F6B29A" stroke-opacity="0.30"></rect>
-    <text x="41" y="26" text-anchor="middle" class="chipText">Git</text>
-  </g>
-  <g transform="translate(706, 370)">
-    <rect width="94" height="42" rx="15" fill="#EABB2E" fill-opacity="0.96" stroke="#FFE494" stroke-opacity="0.30"></rect>
-    <text x="47" y="26" text-anchor="middle" class="chipTextDark">Linux</text>
+  <g transform="translate(240, 268)">
+    <rect x="-2" y="-2" width="108" height="44" rx="17" fill="#FFFFFF" fill-opacity="0.10" filter="url(#chipBlur)"></rect>
+    <rect width="104" height="40" rx="15" fill="#000020" fill-opacity="0.36" stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="1.2" filter="url(#chipShadow)"></rect>
+    <rect x="1" y="1" width="102" height="38" rx="14" fill="url(#chipGloss)"></rect>
+    <rect x="8" y="6" width="88" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.10"></rect>
+    <text x="52" y="25" text-anchor="middle" class="chipText">Expo</text>
   </g>
 
-  <text x="70" y="454" class="section">AI, Data &amp; Creative Tools</text>
+  <g transform="translate(364, 268)">
+    <rect x="-2" y="-2" width="122" height="44" rx="17" fill="#5CC8F8" fill-opacity="0.12" filter="url(#chipBlur)"></rect>
+    <rect width="118" height="40" rx="15" fill="#02569B" fill-opacity="0.36" stroke="#5CC8F8" stroke-opacity="0.46" stroke-width="1.2" filter="url(#chipShadow)"></rect>
+    <rect x="1" y="1" width="116" height="38" rx="14" fill="url(#chipGloss)"></rect>
+    <rect x="8" y="6" width="102" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.10"></rect>
+    <text x="59" y="25" text-anchor="middle" class="chipText">Flutter</text>
+  </g>
 
-  <g transform="translate(70, 472)">
-    <rect width="110" height="38" rx="14" fill="#17056A" fill-opacity="0.94" stroke="#C6B3F7" stroke-opacity="0.30"></rect>
-    <text x="55" y="24" text-anchor="middle" class="chipText">Pandas</text>
+  <g transform="translate(502, 268)">
+    <rect x="-2" y="-2" width="134" height="44" rx="17" fill="#BBF7D0" fill-opacity="0.12" filter="url(#chipBlur)"></rect>
+    <rect width="130" height="40" rx="15" fill="#3DDC84" fill-opacity="0.36" stroke="#BBF7D0" stroke-opacity="0.46" stroke-width="1.2" filter="url(#chipShadow)"></rect>
+    <rect x="1" y="1" width="128" height="38" rx="14" fill="url(#chipGloss)"></rect>
+    <rect x="8" y="6" width="114" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.10"></rect>
+    <text x="65" y="25" text-anchor="middle" class="chipText">Android</text>
   </g>
-  <g transform="translate(194, 472)">
-    <rect width="150" height="38" rx="14" fill="#E59624" fill-opacity="0.95" stroke="#F8D29A" stroke-opacity="0.30"></rect>
-    <text x="75" y="24" text-anchor="middle" class="chipText">scikit-learn</text>
+
+  <g transform="translate(652, 268)">
+    <rect x="-2" y="-2" width="110" height="44" rx="17" fill="#61DAFB" fill-opacity="0.12" filter="url(#chipBlur)"></rect>
+    <rect width="106" height="40" rx="15" fill="#20232A" fill-opacity="0.36" stroke="#61DAFB" stroke-opacity="0.50" stroke-width="1.2" filter="url(#chipShadow)"></rect>
+    <rect x="1" y="1" width="104" height="38" rx="14" fill="url(#chipGloss)"></rect>
+    <rect x="8" y="6" width="90" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.10"></rect>
+    <text x="53" y="25" text-anchor="middle" class="chipText">React</text>
   </g>
-  <g transform="translate(358, 472)">
-    <rect width="118" height="38" rx="14" fill="#E2512C" fill-opacity="0.95" stroke="#F4B39B" stroke-opacity="0.30"></rect>
-    <text x="59" y="24" text-anchor="middle" class="chipText">PyTorch</text>
+
+  <g transform="translate(778, 268)">
+    <rect x="-2" y="-2" width="136" height="44" rx="17" fill="#D8B4FE" fill-opacity="0.12" filter="url(#chipBlur)"></rect>
+    <rect width="132" height="40" rx="15" fill="#7952B3" fill-opacity="0.36" stroke="#D8B4FE" stroke-opacity="0.46" stroke-width="1.2" filter="url(#chipShadow)"></rect>
+    <rect x="1" y="1" width="130" height="38" rx="14" fill="url(#chipGloss)"></rect>
+    <rect x="8" y="6" width="116" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.10"></rect>
+    <text x="66" y="25" text-anchor="middle" class="chipText">Bootstrap</text>
   </g>
-  <g transform="translate(490, 472)">
-    <rect width="140" height="38" rx="14" fill="#F07A08" fill-opacity="0.96" stroke="#F8CB96" stroke-opacity="0.30"></rect>
-    <text x="70" y="24" text-anchor="middle" class="chipText">TensorFlow</text>
+
+  <text x="50" y="352" class="section">Backend, Databases &amp; Tools</text>
+
+  <g transform="translate(50, 370)">
+    <rect x="-2" y="-2" width="118" height="44" rx="17" fill="#A9E8AB" fill-opacity="0.12" filter="url(#chipBlur)"></rect>
+    <rect width="114" height="40" rx="15" fill="#349335" fill-opacity="0.36" stroke="#A9E8AB" stroke-opacity="0.46" stroke-width="1.2" filter="url(#chipShadow)"></rect>
+    <rect x="1" y="1" width="112" height="38" rx="14" fill="url(#chipGloss)"></rect>
+    <rect x="8" y="6" width="98" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.10"></rect>
+    <text x="57" y="25" text-anchor="middle" class="chipText">Node.js</text>
   </g>
-  <g transform="translate(644, 472)">
-    <rect width="116" height="38" rx="14" fill="#1699A1" fill-opacity="0.95" stroke="#97ECF0" stroke-opacity="0.30"></rect>
-    <text x="58" y="24" text-anchor="middle" class="chipText">Arduino</text>
+
+  <g transform="translate(184, 370)">
+    <rect x="-2" y="-2" width="134" height="44" rx="17" fill="#FFE494" fill-opacity="0.12" filter="url(#chipBlur)"></rect>
+    <rect width="130" height="40" rx="15" fill="#E5BB2C" fill-opacity="0.36" stroke="#FFE494" stroke-opacity="0.46" stroke-width="1.2" filter="url(#chipShadow)"></rect>
+    <rect x="1" y="1" width="128" height="38" rx="14" fill="url(#chipGloss)"></rect>
+    <rect x="8" y="6" width="114" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.10"></rect>
+    <text x="65" y="25" text-anchor="middle" class="chipTextDark">Firebase</text>
   </g>
-  <g transform="translate(774, 472)">
-    <rect width="114" height="38" rx="14" fill="#E48A18" fill-opacity="0.95" stroke="#F7CCA0" stroke-opacity="0.30"></rect>
-    <text x="57" y="24" text-anchor="middle" class="chipText">Blender</text>
+
+  <g transform="translate(334, 370)">
+    <rect x="-2" y="-2" width="136" height="44" rx="17" fill="#B4E7B4" fill-opacity="0.12" filter="url(#chipBlur)"></rect>
+    <rect width="132" height="40" rx="15" fill="#4B9A46" fill-opacity="0.36" stroke="#B4E7B4" stroke-opacity="0.46" stroke-width="1.2" filter="url(#chipShadow)"></rect>
+    <rect x="1" y="1" width="130" height="38" rx="14" fill="url(#chipGloss)"></rect>
+    <rect x="8" y="6" width="116" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.10"></rect>
+    <text x="66" y="25" text-anchor="middle" class="chipText">MongoDB</text>
+  </g>
+
+  <g transform="translate(486, 370)">
+    <rect x="-2" y="-2" width="112" height="44" rx="17" fill="#B5D5EF" fill-opacity="0.12" filter="url(#chipBlur)"></rect>
+    <rect width="108" height="40" rx="15" fill="#5685AC" fill-opacity="0.36" stroke="#B5D5EF" stroke-opacity="0.46" stroke-width="1.2" filter="url(#chipShadow)"></rect>
+    <rect x="1" y="1" width="106" height="38" rx="14" fill="url(#chipGloss)"></rect>
+    <rect x="8" y="6" width="92" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.10"></rect>
+    <text x="54" y="25" text-anchor="middle" class="chipText">MySQL</text>
+  </g>
+
+  <g transform="translate(614, 370)">
+    <rect x="-2" y="-2" width="86" height="44" rx="17" fill="#F6B29A" fill-opacity="0.12" filter="url(#chipBlur)"></rect>
+    <rect width="82" height="40" rx="15" fill="#DD5634" fill-opacity="0.36" stroke="#F6B29A" stroke-opacity="0.46" stroke-width="1.2" filter="url(#chipShadow)"></rect>
+    <rect x="1" y="1" width="80" height="38" rx="14" fill="url(#chipGloss)"></rect>
+    <rect x="8" y="6" width="66" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.10"></rect>
+    <text x="41" y="25" text-anchor="middle" class="chipText">Git</text>
+  </g>
+
+  <g transform="translate(716, 370)">
+    <rect x="-2" y="-2" width="98" height="44" rx="17" fill="#FFE494" fill-opacity="0.12" filter="url(#chipBlur)"></rect>
+    <rect width="94" height="40" rx="15" fill="#EABB2E" fill-opacity="0.36" stroke="#FFE494" stroke-opacity="0.46" stroke-width="1.2" filter="url(#chipShadow)"></rect>
+    <rect x="1" y="1" width="92" height="38" rx="14" fill="url(#chipGloss)"></rect>
+    <rect x="8" y="6" width="78" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.10"></rect>
+    <text x="47" y="25" text-anchor="middle" class="chipTextDark">Linux</text>
+  </g>
+
+  <text x="50" y="454" class="section">AI, Data &amp; Creative Tools</text>
+
+  <g transform="translate(50, 472)">
+    <rect x="-2" y="-2" width="114" height="44" rx="17" fill="#C6B3F7" fill-opacity="0.12" filter="url(#chipBlur)"></rect>
+    <rect width="110" height="40" rx="15" fill="#17056A" fill-opacity="0.36" stroke="#C6B3F7" stroke-opacity="0.46" stroke-width="1.2" filter="url(#chipShadow)"></rect>
+    <rect x="1" y="1" width="108" height="38" rx="14" fill="url(#chipGloss)"></rect>
+    <rect x="8" y="6" width="94" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.10"></rect>
+    <text x="55" y="25" text-anchor="middle" class="chipText">Pandas</text>
+  </g>
+
+  <g transform="translate(180, 472)">
+    <rect x="-2" y="-2" width="154" height="44" rx="17" fill="#F8D29A" fill-opacity="0.12" filter="url(#chipBlur)"></rect>
+    <rect width="150" height="40" rx="15" fill="#E59624" fill-opacity="0.36" stroke="#F8D29A" stroke-opacity="0.46" stroke-width="1.2" filter="url(#chipShadow)"></rect>
+    <rect x="1" y="1" width="148" height="38" rx="14" fill="url(#chipGloss)"></rect>
+    <rect x="8" y="6" width="134" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.10"></rect>
+    <text x="75" y="25" text-anchor="middle" class="chipText">scikit-learn</text>
+  </g>
+
+  <g transform="translate(350, 472)">
+    <rect x="-2" y="-2" width="122" height="44" rx="17" fill="#F4B39B" fill-opacity="0.12" filter="url(#chipBlur)"></rect>
+    <rect width="118" height="40" rx="15" fill="#E2512C" fill-opacity="0.36" stroke="#F4B39B" stroke-opacity="0.46" stroke-width="1.2" filter="url(#chipShadow)"></rect>
+    <rect x="1" y="1" width="116" height="38" rx="14" fill="url(#chipGloss)"></rect>
+    <rect x="8" y="6" width="102" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.10"></rect>
+    <text x="59" y="25" text-anchor="middle" class="chipText">PyTorch</text>
+  </g>
+
+  <g transform="translate(488, 472)">
+    <rect x="-2" y="-2" width="144" height="44" rx="17" fill="#F8CB96" fill-opacity="0.12" filter="url(#chipBlur)"></rect>
+    <rect width="140" height="40" rx="15" fill="#F07A08" fill-opacity="0.36" stroke="#F8CB96" stroke-opacity="0.46" stroke-width="1.2" filter="url(#chipShadow)"></rect>
+    <rect x="1" y="1" width="138" height="38" rx="14" fill="url(#chipGloss)"></rect>
+    <rect x="8" y="6" width="124" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.10"></rect>
+    <text x="70" y="25" text-anchor="middle" class="chipText">TensorFlow</text>
+  </g>
+
+  <g transform="translate(648, 472)">
+    <rect x="-2" y="-2" width="120" height="44" rx="17" fill="#97ECF0" fill-opacity="0.12" filter="url(#chipBlur)"></rect>
+    <rect width="116" height="40" rx="15" fill="#1699A1" fill-opacity="0.36" stroke="#97ECF0" stroke-opacity="0.46" stroke-width="1.2" filter="url(#chipShadow)"></rect>
+    <rect x="1" y="1" width="114" height="38" rx="14" fill="url(#chipGloss)"></rect>
+    <rect x="8" y="6" width="100" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.10"></rect>
+    <text x="58" y="25" text-anchor="middle" class="chipText">Arduino</text>
+  </g>
+
+  <g transform="translate(784, 472)">
+    <rect x="-2" y="-2" width="118" height="44" rx="17" fill="#F7CCA0" fill-opacity="0.12" filter="url(#chipBlur)"></rect>
+    <rect width="114" height="40" rx="15" fill="#E48A18" fill-opacity="0.36" stroke="#F7CCA0" stroke-opacity="0.46" stroke-width="1.2" filter="url(#chipShadow)"></rect>
+    <rect x="1" y="1" width="112" height="38" rx="14" fill="url(#chipGloss)"></rect>
+    <rect x="8" y="6" width="98" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.10"></rect>
+    <text x="57" y="25" text-anchor="middle" class="chipText">Blender</text>
   </g>
 </svg>
