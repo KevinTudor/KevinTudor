@@ -85,7 +85,7 @@
   <circle cx="950" cy="102" r="84" fill="#A855F7" opacity="0.14" filter="url(#softGlow)"></circle>
   <circle cx="896" cy="468" r="98" fill="#FB923C" opacity="0.11" filter="url(#softGlow)"></circle>
 
-  <rect x="34" y="34" width="1032" height="492" rx="24" fill="url(#glassFill)" stroke="url(#glassStroke)" stroke-width="1.2" filter="url(#cardShadow)"></rect>
+  <rect x="1" y="1" width="1098" height="558" rx="27" fill="url(#glassFill)" stroke="url(#glassStroke)" stroke-width="1.2"></rect>
 
   <text x="70" y="82" class="title">Tech Stack</text>
   <text x="70" y="110" class="subtitle">Modern mobile, full-stack, AI, and creative development tools</text>
