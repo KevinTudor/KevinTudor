@@ -81,7 +81,7 @@
   <img 
     src="./profile-summary-card-output/github_dark/0-profile-details.svg" 
     alt="Kevin Tudor GitHub profile details" 
-    width="700" 
+    width="100%" 
   />
 </p>
 
