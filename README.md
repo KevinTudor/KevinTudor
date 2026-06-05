@@ -11,15 +11,8 @@
 ---
 
 <p align="center">
-  <img src="assets/about-me-panel.svg?v=2026-06-04-2" alt="Kevin Tudor Tech Stack" width="100%" />
+  <img src="assets/header-panel.svg?v=2026-06-04-2" alt="Kevin Tudor Tech Stack" width="100%" />
 </p>
-
----
-
-<p align="center">
-  <img src="assets/tech-stack-panel.svg?v=2026-06-04-2" alt="Kevin Tudor Tech Stack" width="100%" />
-</p>
-
 
 ---
 
