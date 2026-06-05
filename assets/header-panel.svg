@@ -2,46 +2,48 @@
 <svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="900">
-      <stop offset="0%" stop-color="#07152A"></stop>
-      <stop offset="45%" stop-color="#111B35"></stop>
-      <stop offset="100%" stop-color="#060810"></stop>
+      <stop offset="0%" stop-color="#0D1117"></stop>
+      <stop offset="45%" stop-color="#111827"></stop>
+      <stop offset="100%" stop-color="#0D1117"></stop>
     </linearGradient>
 
-    <radialGradient id="glowBlue" cx="18%" cy="12%" r="60%">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.34"></stop>
-      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"></stop>
+    <radialGradient id="glowBlue" cx="3%" cy="32%" r="42%">
+      <stop offset="0%" stop-color="#0366D6" stop-opacity="0.55"></stop>
+      <stop offset="38%" stop-color="#0B5ED7" stop-opacity="0.24"></stop>
+      <stop offset="100%" stop-color="#0366D6" stop-opacity="0"></stop>
     </radialGradient>
 
     <radialGradient id="glowPurple" cx="88%" cy="10%" r="54%">
-      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.30"></stop>
-      <stop offset="100%" stop-color="#A855F7" stop-opacity="0"></stop>
+      <stop offset="0%" stop-color="#0D1155" stop-opacity="0.36"></stop>
+      <stop offset="42%" stop-color="#0D2192" stop-opacity="0.18"></stop>
+      <stop offset="100%" stop-color="#0D1155" stop-opacity="0"></stop>
     </radialGradient>
 
     <radialGradient id="glowOrange" cx="82%" cy="88%" r="48%">
-      <stop offset="0%" stop-color="#FB923C" stop-opacity="0.22"></stop>
-      <stop offset="100%" stop-color="#FB923C" stop-opacity="0"></stop>
+      <stop offset="0%" stop-color="#3D444D" stop-opacity="0.22"></stop>
+      <stop offset="100%" stop-color="#3D444D" stop-opacity="0"></stop>
     </radialGradient>
 
     <linearGradient id="glassFill" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.14"></stop>
-      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.05"></stop>
-      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.10"></stop>
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.10"></stop>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.04"></stop>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.07"></stop>
     </linearGradient>
 
     <linearGradient id="glassStroke" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.42"></stop>
-      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.10"></stop>
-      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.18"></stop>
+      <stop offset="0%" stop-color="#3D444D" stop-opacity="0.95"></stop>
+      <stop offset="50%" stop-color="#3D444D" stop-opacity="0.45"></stop>
+      <stop offset="100%" stop-color="#3D444D" stop-opacity="0.75"></stop>
     </linearGradient>
 
     <linearGradient id="innerPanelFill" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.08"></stop>
-      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.04"></stop>
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.06"></stop>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.03"></stop>
     </linearGradient>
 
     <linearGradient id="innerPanelStroke" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.18"></stop>
-      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.08"></stop>
+      <stop offset="0%" stop-color="#3D444D" stop-opacity="0.60"></stop>
+      <stop offset="100%" stop-color="#3D444D" stop-opacity="0.30"></stop>
     </linearGradient>
 
     <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
@@ -137,22 +139,22 @@
   <rect width="1200" height="900" rx="30" fill="url(#glowPurple)"></rect>
   <rect width="1200" height="900" rx="30" fill="url(#glowOrange)"></rect>
 
-  <circle cx="130" cy="85" r="90" fill="#38BDF8" opacity="0.14" filter="url(#softGlow)"></circle>
-  <circle cx="1040" cy="85" r="110" fill="#A855F7" opacity="0.16" filter="url(#softGlow)"></circle>
-  <circle cx="950" cy="780" r="140" fill="#FB923C" opacity="0.12" filter="url(#softGlow)"></circle>
+  <circle cx="40" cy="300" r="120" fill="#0366D6" opacity="0.18" filter="url(#softGlow)"></circle>
+  <circle cx="1050" cy="90" r="110" fill="#0D1155" opacity="0.20" filter="url(#softGlow)"></circle>
+  <circle cx="960" cy="780" r="140" fill="#3D444D" opacity="0.14" filter="url(#softGlow)"></circle>
 
   <rect x="1.5" y="1.5" width="1197" height="897" rx="28.5" fill="url(#glassFill)" stroke="url(#glassStroke)" stroke-width="1.5"></rect>
 
   <text x="50" y="78" class="title">Computer Science</text>
   <text x="50" y="110" class="sub">B.S. in Computer Science  •  Minor in Artificial Intelligence</text>
-  <line x1="50" y1="134" x2="660" y2="134" stroke="#63B3ED" stroke-opacity="0.45" stroke-width="3"></line>
+  <line x1="50" y1="134" x2="660" y2="134" stroke="#0366D6" stroke-opacity="0.75" stroke-width="3"></line>
   <text x="50" y="166" class="summary">Focused on mobile apps, AI, and full-stack development.</text>
 
   <g transform="translate(50, 205)">
-    <rect width="260" height="172" rx="24" fill="#0B1730" fill-opacity="0.22" stroke="#59C5FF" stroke-opacity="0.75" stroke-width="1.6" filter="url(#cardShadow)"></rect>
-    <text x="130" y="36" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#59C5FF">⌨</text>
+    <rect width="260" height="172" rx="24" fill="#0B1730" fill-opacity="0.22" stroke="#58A6FF" stroke-opacity="0.75" stroke-width="1.6" filter="url(#cardShadow)"></rect>
+    <text x="130" y="36" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#58A6FF">⌨</text>
     <text x="130" y="66" text-anchor="middle" class="cardTitleBlue">Current Project</text>
-    <line x1="101" y1="84" x2="159" y2="84" stroke="#59C5FF" stroke-width="3" stroke-linecap="round"></line>
+    <line x1="101" y1="84" x2="159" y2="84" stroke="#58A6FF" stroke-width="3" stroke-linecap="round"></line>
     <text x="130" y="116" text-anchor="middle" class="cardBody">
       <tspan x="130" dy="0">Mobile application using</tspan>
       <tspan x="130" dy="22">JavaScript, React Native,</tspan>
@@ -161,10 +163,10 @@
   </g>
 
   <g transform="translate(330, 205)">
-    <rect width="260" height="172" rx="24" fill="#0B1730" fill-opacity="0.22" stroke="#73F0F6" stroke-opacity="0.75" stroke-width="1.6" filter="url(#cardShadow)"></rect>
-    <text x="130" y="36" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#73F0F6">⌁</text>
+    <rect width="260" height="172" rx="24" fill="#0B1730" fill-opacity="0.22" stroke="#67E8F9" stroke-opacity="0.75" stroke-width="1.6" filter="url(#cardShadow)"></rect>
+    <text x="130" y="36" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#67E8F9">⌁</text>
     <text x="130" y="66" text-anchor="middle" class="cardTitleCyan">Learning</text>
-    <line x1="101" y1="84" x2="159" y2="84" stroke="#73F0F6" stroke-width="3" stroke-linecap="round"></line>
+    <line x1="101" y1="84" x2="159" y2="84" stroke="#67E8F9" stroke-width="3" stroke-linecap="round"></line>
     <text x="130" y="116" text-anchor="middle" class="cardBody">
       <tspan x="130" dy="0">Java, Flutter, and</tspan>
       <tspan x="130" dy="22">refreshing Python</tspan>
@@ -173,10 +175,10 @@
   </g>
 
   <g transform="translate(610, 205)">
-    <rect width="260" height="172" rx="24" fill="#0B1730" fill-opacity="0.22" stroke="#B983FF" stroke-opacity="0.75" stroke-width="1.6" filter="url(#cardShadow)"></rect>
-    <text x="130" y="36" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#B983FF">◌◌◌</text>
+    <rect width="260" height="172" rx="24" fill="#0B1730" fill-opacity="0.22" stroke="#A855F7" stroke-opacity="0.75" stroke-width="1.6" filter="url(#cardShadow)"></rect>
+    <text x="130" y="36" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#A855F7">◌◌◌</text>
     <text x="130" y="66" text-anchor="middle" class="cardTitlePurple">Collaboration</text>
-    <line x1="101" y1="84" x2="159" y2="84" stroke="#B983FF" stroke-width="3" stroke-linecap="round"></line>
+    <line x1="101" y1="84" x2="159" y2="84" stroke="#A855F7" stroke-width="3" stroke-linecap="round"></line>
     <text x="130" y="116" text-anchor="middle" class="cardBody">
       <tspan x="130" dy="0">Open to AI and</tspan>
       <tspan x="130" dy="22">full-stack development</tspan>
@@ -185,17 +187,17 @@
   </g>
 
   <g transform="translate(890, 205)">
-    <rect width="260" height="172" rx="24" fill="#0B1730" fill-opacity="0.22" stroke="#FF9AD7" stroke-opacity="0.75" stroke-width="1.6" filter="url(#cardShadow)"></rect>
-    <text x="130" y="36" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#FF9AD7">⟟</text>
-    <text x="130" y="66" text-anchor="middle" class="cardTitlePink">Help Wanted</text>
-    <line x1="101" y1="84" x2="159" y2="84" stroke="#FF9AD7" stroke-width="3" stroke-linecap="round"></line>
+    <rect width="260" height="172" rx="24" fill="#0B1730" fill-opacity="0.22" stroke="#58A6FF" stroke-opacity="0.75" stroke-width="1.6" filter="url(#cardShadow)"></rect>
+    <text x="130" y="36" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#58A6FF">⟟</text>
+    <text x="130" y="66" text-anchor="middle" class="cardTitleBlue">Help Wanted</text>
+    <line x1="101" y1="84" x2="159" y2="84" stroke="#58A6FF" stroke-width="3" stroke-linecap="round"></line>
     <text x="130" y="116" text-anchor="middle" class="cardBody">
       <tspan x="130" dy="0">Local distribution of</tspan>
       <tspan x="130" dy="22">an iOS .ipa file</tspan>
     </text>
   </g>
 
-  <line x1="50" y1="410" x2="1150" y2="410" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="2"></line>
+  <line x1="50" y1="410" x2="1150" y2="410" stroke="#3D444D" stroke-opacity="0.90" stroke-width="2"></line>
 
   <rect x="40" y="430" width="1120" height="450" rx="28" fill="url(#innerPanelFill)" stroke="url(#innerPanelStroke)" stroke-width="1.2"></rect>
 
@@ -236,7 +238,7 @@
   <text x="70" y="632" class="miniSection">Mobile &amp; Frontend</text>
 
   <g transform="translate(70, 648)">
-    <rect width="158" height="40" rx="15" fill="#2C495A" fill-opacity="0.70" stroke="#61DAFB" stroke-opacity="0.85" stroke-width="1.2"></rect>
+    <rect width="158" height="40" rx="15" fill="#2C495A" fill-opacity="0.70" stroke="#58A6FF" stroke-opacity="0.85" stroke-width="1.2"></rect>
     <text x="79" y="25" text-anchor="middle" class="chipText">React Native</text>
   </g>
   <g transform="translate(242, 648)">
@@ -244,7 +246,7 @@
     <text x="48" y="25" text-anchor="middle" class="chipText">Expo</text>
   </g>
   <g transform="translate(352, 648)">
-    <rect width="118" height="40" rx="15" fill="#235E8F" fill-opacity="0.70" stroke="#5CC8F8" stroke-opacity="0.85" stroke-width="1.2"></rect>
+    <rect width="118" height="40" rx="15" fill="#235E8F" fill-opacity="0.70" stroke="#58A6FF" stroke-opacity="0.85" stroke-width="1.2"></rect>
     <text x="59" y="25" text-anchor="middle" class="chipText">Flutter</text>
   </g>
   <g transform="translate(484, 648)">
@@ -252,11 +254,11 @@
     <text x="66" y="25" text-anchor="middle" class="chipText">Android</text>
   </g>
   <g transform="translate(630, 648)">
-    <rect width="102" height="40" rx="15" fill="#324250" fill-opacity="0.70" stroke="#61DAFB" stroke-opacity="0.85" stroke-width="1.2"></rect>
+    <rect width="102" height="40" rx="15" fill="#324250" fill-opacity="0.70" stroke="#58A6FF" stroke-opacity="0.85" stroke-width="1.2"></rect>
     <text x="51" y="25" text-anchor="middle" class="chipText">React</text>
   </g>
   <g transform="translate(746, 648)">
-    <rect width="130" height="40" rx="15" fill="#695086" fill-opacity="0.72" stroke="#D8B4FE" stroke-opacity="0.85" stroke-width="1.2"></rect>
+    <rect width="130" height="40" rx="15" fill="#695086" fill-opacity="0.72" stroke="#A855F7" stroke-opacity="0.85" stroke-width="1.2"></rect>
     <text x="65" y="25" text-anchor="middle" class="chipText">Bootstrap</text>
   </g>
 
@@ -290,7 +292,7 @@
   <text x="70" y="800" class="miniSection">AI, Data &amp; Creative Tools</text>
 
   <g transform="translate(70, 816)">
-    <rect width="108" height="40" rx="15" fill="#544885" fill-opacity="0.72" stroke="#C6B3F7" stroke-opacity="0.85" stroke-width="1.2"></rect>
+    <rect width="108" height="40" rx="15" fill="#544885" fill-opacity="0.72" stroke="#A855F7" stroke-opacity="0.85" stroke-width="1.2"></rect>
     <text x="54" y="25" text-anchor="middle" class="chipText">Pandas</text>
   </g>
   <g transform="translate(192, 816)">
