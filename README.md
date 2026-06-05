@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=kevintudor&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
+  <img src="assets/tech-stack.svg?v=2026-06-04-1" alt="Kevin Tudor Tech Stack" width="100%" />
 </p>
 
 ---
