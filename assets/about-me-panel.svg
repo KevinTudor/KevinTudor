@@ -1,7 +1,7 @@
 
-<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="600" viewBox="0 0 1200 600" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="700">
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="600">
       <stop offset="0%" stop-color="#07152A"></stop>
       <stop offset="45%" stop-color="#111B35"></stop>
       <stop offset="100%" stop-color="#060810"></stop>
@@ -39,130 +39,123 @@
     </filter>
 
     <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#000000" flood-opacity="0.24"></feDropShadow>
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000000" flood-opacity="0.22"></feDropShadow>
     </filter>
 
     <style>
       .title {
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 70px;
+        font-size: 48px;
         font-weight: 800;
         fill: #F8FAFC;
       }
       .sub {
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 25px;
+        font-size: 19px;
         font-weight: 500;
         fill: #C9D6E7;
       }
       .summary {
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 23px;
+        font-size: 17px;
         font-weight: 500;
         fill: #D6E1EF;
       }
       .cardTitleBlue {
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 28px;
+        font-size: 20px;
         font-weight: 700;
         fill: #4FB8FF;
       }
       .cardTitleCyan {
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 28px;
+        font-size: 20px;
         font-weight: 700;
         fill: #67E8F9;
       }
       .cardTitlePurple {
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 28px;
+        font-size: 20px;
         font-weight: 700;
         fill: #B983FF;
       }
       .cardTitlePink {
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 28px;
+        font-size: 20px;
         font-weight: 700;
         fill: #FF8AD8;
       }
       .cardBody {
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 19px;
+        font-size: 14.5px;
         font-weight: 500;
         fill: #F3F6FA;
       }
     </style>
   </defs>
 
-  <!-- Full background -->
-  <rect width="1200" height="700" rx="30" fill="url(#bg)"></rect>
-  <rect width="1200" height="700" rx="30" fill="url(#glowBlue)"></rect>
-  <rect width="1200" height="700" rx="30" fill="url(#glowPurple)"></rect>
-  <rect width="1200" height="700" rx="30" fill="url(#glowOrange)"></rect>
+  <rect width="1200" height="600" rx="30" fill="url(#bg)"></rect>
+  <rect width="1200" height="600" rx="30" fill="url(#glowBlue)"></rect>
+  <rect width="1200" height="600" rx="30" fill="url(#glowPurple)"></rect>
+  <rect width="1200" height="600" rx="30" fill="url(#glowOrange)"></rect>
 
-  <!-- Soft ambient glows -->
-  <circle cx="130" cy="100" r="90" fill="#38BDF8" opacity="0.14" filter="url(#softGlow)"></circle>
-  <circle cx="1040" cy="90" r="110" fill="#A855F7" opacity="0.16" filter="url(#softGlow)"></circle>
-  <circle cx="960" cy="580" r="120" fill="#FB923C" opacity="0.12" filter="url(#softGlow)"></circle>
+  <circle cx="130" cy="92" r="90" fill="#38BDF8" opacity="0.14" filter="url(#softGlow)"></circle>
+  <circle cx="1040" cy="82" r="110" fill="#A855F7" opacity="0.16" filter="url(#softGlow)"></circle>
+  <circle cx="960" cy="510" r="120" fill="#FB923C" opacity="0.12" filter="url(#softGlow)"></circle>
 
-  <!-- Full glass overlay panel -->
-  <rect x="1.5" y="1.5" width="1197" height="697" rx="28.5" fill="url(#glassFill)" stroke="url(#glassStroke)" stroke-width="1.5"></rect>
+  <rect x="1.5" y="1.5" width="1197" height="597" rx="28.5" fill="url(#glassFill)" stroke="url(#glassStroke)" stroke-width="1.5"></rect>
 
-  <!-- Header -->
-  <text x="70" y="120" class="title">Computer Science</text>
-  <text x="70" y="170" class="sub">B.S. in Computer Science  •  Minor in Artificial Intelligence</text>
+  <text x="100" y="118" class="title">Computer Science</text>
+  <text x="100" y="154" class="sub">B.S. in Computer Science  •  Minor in Artificial Intelligence</text>
 
-  <line x1="70" y1="220" x2="790" y2="220" stroke="#63B3ED" stroke-opacity="0.45" stroke-width="3"></line>
+  <line x1="100" y1="182" x2="750" y2="182" stroke="#63B3ED" stroke-opacity="0.45" stroke-width="3"></line>
 
-  <text x="70" y="285" class="summary">Focused on mobile apps, AI, and full-stack development.</text>
+  <text x="100" y="218" class="summary">Focused on mobile apps, AI, and full-stack development.</text>
 
-  <!-- Card 1 -->
-  <g transform="translate(70, 360)">
-    <rect width="250" height="260" rx="26" fill="#0B1730" fill-opacity="0.22" stroke="#59C5FF" stroke-opacity="0.75" stroke-width="1.6" filter="url(#cardShadow)"></rect>
-    <text x="125" y="72" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="54" fill="#59C5FF">⌨</text>
-    <text x="125" y="120" text-anchor="middle" class="cardTitleBlue">Current Project</text>
-    <line x1="95" y1="145" x2="155" y2="145" stroke="#59C5FF" stroke-width="3" stroke-linecap="round"></line>
-    <text x="125" y="190" text-anchor="middle" class="cardBody">
-      <tspan x="125" dy="0">Mobile application using</tspan>
-      <tspan x="125" dy="34">JavaScript, React Native,</tspan>
-      <tspan x="125" dy="34">and Expo</tspan>
+  <g transform="translate(100, 270)">
+    <rect width="235" height="230" rx="24" fill="#0B1730" fill-opacity="0.22" stroke="#59C5FF" stroke-opacity="0.75" stroke-width="1.6" filter="url(#cardShadow)"></rect>
+    <text x="117.5" y="52" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="36" fill="#59C5FF">⌨</text>
+    <text x="117.5" y="88" text-anchor="middle" class="cardTitleBlue">Current Project</text>
+    <line x1="89" y1="110" x2="146" y2="110" stroke="#59C5FF" stroke-width="3" stroke-linecap="round"></line>
+    <text x="117.5" y="146" text-anchor="middle" class="cardBody">
+      <tspan x="117.5" dy="0">Mobile application using</tspan>
+      <tspan x="117.5" dy="27">JavaScript, React Native,</tspan>
+      <tspan x="117.5" dy="27">and Expo</tspan>
     </text>
   </g>
 
-  <!-- Card 2 -->
-  <g transform="translate(350, 360)">
-    <rect width="250" height="260" rx="26" fill="#0B1730" fill-opacity="0.22" stroke="#73F0F6" stroke-opacity="0.75" stroke-width="1.6" filter="url(#cardShadow)"></rect>
-    <text x="125" y="72" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="54" fill="#73F0F6">⌁</text>
-    <text x="125" y="120" text-anchor="middle" class="cardTitleCyan">Learning</text>
-    <line x1="95" y1="145" x2="155" y2="145" stroke="#73F0F6" stroke-width="3" stroke-linecap="round"></line>
-    <text x="125" y="190" text-anchor="middle" class="cardBody">
-      <tspan x="125" dy="0">Java, Flutter, and</tspan>
-      <tspan x="125" dy="34">Python AI tooling</tspan>
+  <g transform="translate(355, 270)">
+    <rect width="235" height="230" rx="24" fill="#0B1730" fill-opacity="0.22" stroke="#73F0F6" stroke-opacity="0.75" stroke-width="1.6" filter="url(#cardShadow)"></rect>
+    <text x="117.5" y="52" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="36" fill="#73F0F6">⌁</text>
+    <text x="117.5" y="88" text-anchor="middle" class="cardTitleCyan">Learning</text>
+    <line x1="89" y1="110" x2="146" y2="110" stroke="#73F0F6" stroke-width="3" stroke-linecap="round"></line>
+    <text x="117.5" y="146" text-anchor="middle" class="cardBody">
+      <tspan x="117.5" dy="0">Java, Flutter, and</tspan>
+      <tspan x="117.5" dy="27">refreshing Python</tspan>
+      <tspan x="117.5" dy="27">AI tooling</tspan>
     </text>
   </g>
 
-  <!-- Card 3 -->
-  <g transform="translate(630, 360)">
-    <rect width="250" height="260" rx="26" fill="#0B1730" fill-opacity="0.22" stroke="#B983FF" stroke-opacity="0.75" stroke-width="1.6" filter="url(#cardShadow)"></rect>
-    <text x="125" y="72" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="54" fill="#B983FF">◌◌◌</text>
-    <text x="125" y="120" text-anchor="middle" class="cardTitlePurple">Collaboration</text>
-    <line x1="95" y1="145" x2="155" y2="145" stroke="#B983FF" stroke-width="3" stroke-linecap="round"></line>
-    <text x="125" y="190" text-anchor="middle" class="cardBody">
-      <tspan x="125" dy="0">Open to AI and</tspan>
-      <tspan x="125" dy="34">Full-Stack Development</tspan>
-      <tspan x="125" dy="34">projects</tspan>
+  <g transform="translate(610, 270)">
+    <rect width="235" height="230" rx="24" fill="#0B1730" fill-opacity="0.22" stroke="#B983FF" stroke-opacity="0.75" stroke-width="1.6" filter="url(#cardShadow)"></rect>
+    <text x="117.5" y="52" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="36" fill="#B983FF">◌◌◌</text>
+    <text x="117.5" y="88" text-anchor="middle" class="cardTitlePurple">Collaboration</text>
+    <line x1="89" y1="110" x2="146" y2="110" stroke="#B983FF" stroke-width="3" stroke-linecap="round"></line>
+    <text x="117.5" y="146" text-anchor="middle" class="cardBody">
+      <tspan x="117.5" dy="0">Open to AI and</tspan>
+      <tspan x="117.5" dy="27">full-stack development</tspan>
+      <tspan x="117.5" dy="27">projects</tspan>
     </text>
   </g>
 
-  <!-- Card 4 -->
-  <g transform="translate(910, 360)">
-    <rect width="220" height="260" rx="26" fill="#0B1730" fill-opacity="0.22" stroke="#FF9AD7" stroke-opacity="0.75" stroke-width="1.6" filter="url(#cardShadow)"></rect>
-    <text x="110" y="72" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="54" fill="#FF9AD7">⟟</text>
-    <text x="110" y="120" text-anchor="middle" class="cardTitlePink">Help Wanted</text>
-    <line x1="80" y1="145" x2="140" y2="145" stroke="#FF9AD7" stroke-width="3" stroke-linecap="round"></line>
-    <text x="110" y="190" text-anchor="middle" class="cardBody">
-      <tspan x="110" dy="0">Locally distributing</tspan>
-      <tspan x="110" dy="34">an iOS .ipa file</tspan>
+  <g transform="translate(865, 270)">
+    <rect width="235" height="230" rx="24" fill="#0B1730" fill-opacity="0.22" stroke="#FF9AD7" stroke-opacity="0.75" stroke-width="1.6" filter="url(#cardShadow)"></rect>
+    <text x="117.5" y="52" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="36" fill="#FF9AD7">⟟</text>
+    <text x="117.5" y="88" text-anchor="middle" class="cardTitlePink">Help Wanted</text>
+    <line x1="89" y1="110" x2="146" y2="110" stroke="#FF9AD7" stroke-width="3" stroke-linecap="round"></line>
+    <text x="117.5" y="146" text-anchor="middle" class="cardBody">
+      <tspan x="117.5" dy="0">Local distribution of</tspan>
+      <tspan x="117.5" dy="27">an iOS .ipa file</tspan>
     </text>
   </g>
 </svg>
