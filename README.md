@@ -1,5 +1,4 @@
-<h1 align="center">Hi 👋, I'm Kevin Tudor</h1>
-
+---
 <p align="center">
   <b>Computer Science graduate from Florida Atlantic University</b><br/>
   B.S. in Computer Science • Minor in Artificial Intelligence
